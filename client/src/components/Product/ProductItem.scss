@@ -1,0 +1,24 @@
+.addToCard {
+  position: absolute;
+  width: 100%;
+  transition: all 0.3s linear;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  bottom: 0px;
+}
+.card-product-item {
+  position: relative;
+}
+.card-product-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-product-item:hover {
+  transform: scale(1.01);
+}
+.card-product-item:hover .addToCard {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  bottom: 0px;
+  opacity: 1;
+}
